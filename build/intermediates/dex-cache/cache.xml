@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_05defd8b776f4c894e1c6479320ec7321fcd5687/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_5be22cc6e38dbee33a7ddb3dece31011628cc78e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_5bb9eefa7bc1b79d30b66b4a5956947e5371a8d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99f30304989a54a04b4acf1f1659023f99c25149">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ddf54288e8c6baaa6445b8b01d343c8fb47f73e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_f13270eee5c93642b4f0d09838bf50f68d30adf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_4612f68011f3a56ebaed2a0c0a107c3c4124720f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_eaabe160942f6108bdfd6a20e1579afcd45e10ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_70cbd86ae5753b1d43a8318b09d91a0c1d288b29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="094c75a0fde202dc4350c31817f81016dbb2c286">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_828f43ea106cfb359d2dc3205d9cafd0761248ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_ad22a3b61eff4519c54363dfdb15add5275287fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_8cca805a638f7bd07127ac530ca263af6e3bc3bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_24f21ea485e79957ea1b9c9c1080a2f0f7399f43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_e217ce554f78fd9a009f3752839ab5a269440643/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_b02a545e1485cc11a1da69667cb22dfd29eb507f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_f2406436270cc9848a5ba82a25aeaa3c0d4b31d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_f02427dbbbce5cab7073687bd8ab65e39f8d6b65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_c459707c475b4afe3fd24fadbd6f46dd76adf9b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_04637bfc990af9f3d679f7e660d39378b6905c2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_984c4df6490e3cd1412f7bddfbb6e820a6160203/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_7aff6809e9f28bad627f99e122cb66b9702d3391/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="950a99a74fd6da171e972783f4cbb63882fa385b">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1897c349c323eef24931782672ddecdd13c082e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce7a826996db4cc1a68a36ce3f99a3ab73530ede">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_35ef276f5db79df6474dac7906134f36b9df98f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_d18af87774e4445ea8e0ea37391ffb8a64129ab5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_e1002086f7423cf6b40dc9aa9c304db1f509783f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_87de4ca662657bfb2c38a311e6d5e932726baf03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_8e9ec1abff275a45a53e458225e77f21fa8c1c54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_620f9ad5f9e0074cb20a7af0890d859c9797cf78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_6409b3704820940b41ac7a0fb9b11d1fb0e813ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/ejtang-SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_eac765f9f7d33c257e6e27983b1fa841bbfc6bcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/ejtang/AndroidStudioProjects/SizeBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_112d80be72dab9ee3c1fd5571c5b9cba95bdff54/classes.dex" />
+    </item>
+
+</items>
