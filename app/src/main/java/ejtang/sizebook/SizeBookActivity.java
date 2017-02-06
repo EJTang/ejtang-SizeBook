@@ -21,6 +21,10 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+/**
+ * The type Size book activity.
+ * This is the main activity that the application will start in.
+ */
 public class SizeBookActivity extends AppCompatActivity {
     private ListView peopleList;
     private ArrayList<Person> people;
@@ -28,15 +32,23 @@ public class SizeBookActivity extends AppCompatActivity {
 
     private static final String FILENAME = "SizeBook.sav";
 
+    /**
+     * runs specific things that we need at the start of the app
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_size_book);
-        //loadFile();
         peopleList = (ListView) findViewById(R.id.peopleList);
 
     }
 
+    /**
+     * runs specific things that will be needed
+     * each time this class is called.
+     * Things such as loading files and setting the adapter
+     */
     protected void onStart() {
         super.onStart();
         loadFile();
@@ -52,6 +64,9 @@ public class SizeBookActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Load saved data
+     */
     protected void loadFile(){
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -70,16 +85,23 @@ public class SizeBookActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * calls a new activity which allows the user to add a new person to file
+     * @param view
+     */
     public void AddPerson (View view) {
         Intent intent = new Intent(this, AddPerson.class);
         startActivity(intent);
-        //adapter.notifyDataSetChanged();
     }
 
+    /**
+     * calls a new activity which expands the person that the user tapped on
+     * and displays the information on a new activity
+     * @param editPosition
+     */
     public void ExpandPerson (int editPosition) {
         Intent intent = new Intent(this, ExpandPerson.class);
         intent.putExtra("position", editPosition);
         startActivity(intent);
-        //adapter.notifyDataSetChanged();
     }
 }

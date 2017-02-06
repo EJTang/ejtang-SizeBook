@@ -27,6 +27,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * allows for the user edit a person who is already inside the list of people
+ * that are added. All fields can be edited and if there was information in the field
+ * before the field will be filled with the information that was previously inputted.
+ * See Add Person for validation of inputs.
+ */
 public class EditPerson extends AppCompatActivity {
     private static final String FILENAME = "SizeBook.sav";
     private ArrayList<Person> people;
@@ -43,6 +49,10 @@ public class EditPerson extends AppCompatActivity {
     EditText inseam;
     EditText comments;
 
+    /**
+     * runs specific things that we need at the start of the app
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +72,12 @@ public class EditPerson extends AppCompatActivity {
 
     }
 
+    /**
+     * runs specific things that will be needed
+     * each time this class is called.
+     * Fills all of our fields with information that was previously inputted
+     * if the field is empty then we do not fill it
+     */
     @Override
     protected void onStart() {
         super.onStart();
@@ -95,6 +111,12 @@ public class EditPerson extends AppCompatActivity {
 
     }
 
+    /**
+     * this validates that all of the inputs are valid and if not it will not continue
+     * and save the person, instead it will inform the user that they have input invalid
+     * values and wait for them to fix the values and try to save the person again.
+     * @param view
+     */
     public void savePerson(View view) {
         errorFree = true;
         name = (EditText) findViewById(R.id.nameText);
@@ -211,11 +233,20 @@ public class EditPerson extends AppCompatActivity {
 
     }
 
+    /**
+     * does whatever we need before we exit the activity
+     * we save the file to update the person that we updated,
+     * and then we call finish to return to the previous activity
+     * @param view
+     */
     public void finish (View view) {
         saveInFile();
         finish();
     }
 
+    /**
+     * loads the file for reading
+     */
     protected void loadFile() {
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -234,6 +265,10 @@ public class EditPerson extends AppCompatActivity {
         }
     }
 
+    /**
+     * saves our current peoples list into our SizeBook.sav
+     * this updates our data for later reading and writing
+     */
     private void saveInFile() {
         try {
             FileOutputStream fos = openFileOutput(FILENAME,

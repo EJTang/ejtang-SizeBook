@@ -23,6 +23,7 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
+
 public class ExpandPerson extends AppCompatActivity {
     private static final String FILENAME = "SizeBook.sav";
     private ArrayList<Person> people;

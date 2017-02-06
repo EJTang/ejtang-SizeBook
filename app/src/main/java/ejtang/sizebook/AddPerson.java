@@ -31,6 +31,11 @@ import java.util.List;
 
 import static junit.framework.Assert.assertFalse;
 
+/**
+ * This class allows for the user to add a person to the list of people
+ * Attributes have to be valid or the person will not be added and
+ * the user will be informed.
+ */
 public class AddPerson extends AppCompatActivity {
     EditText name;
     EditText date;
@@ -47,6 +52,10 @@ public class AddPerson extends AppCompatActivity {
     Boolean errorFree;
 
 
+    /**
+     * runs specific things that we need at the start of the app
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +63,12 @@ public class AddPerson extends AppCompatActivity {
         loadFile();
     }
 
+    /**
+     * this validates that all of the inputs are valid and if not it will not continue
+     * and save the person, instead it will inform the user that they have input invalid
+     * values and wait for them to fix the values and try to save the person again.
+     * @param view
+     */
     public void savePerson(View view) {
         errorFree = true;
         name = (EditText) findViewById(R.id.nameText);
@@ -172,12 +187,20 @@ public class AddPerson extends AppCompatActivity {
 
     }
 
+    /**
+     * adds the person to our ArrayList of people and then saves the file and
+     * leaves the current activity and returns to the previous activity.
+     * @param view
+     */
     public void finish (View view) {
         people.add(person);
         saveInFile();
         finish();
     }
 
+    /**
+     * loads the file for reading
+     */
     protected void loadFile() {
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -196,6 +219,10 @@ public class AddPerson extends AppCompatActivity {
         }
     }
 
+    /**
+     * saves our current peoples list into our SizeBook.sav
+     * this updates our data for later reading and writing
+     */
     private void saveInFile() {
         try {
             FileOutputStream fos = openFileOutput(FILENAME,
