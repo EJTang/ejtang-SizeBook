@@ -23,7 +23,12 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-
+/**
+ * This activity allows the user to expand the person and view the logged information
+ * we display all the inputted fields and anything that has no inputted fields we
+ * place an N/A
+ * This activity also allows us to edit and delete the Person.
+ */
 public class ExpandPerson extends AppCompatActivity {
     private static final String FILENAME = "SizeBook.sav";
     private ArrayList<Person> people;
@@ -39,6 +44,10 @@ public class ExpandPerson extends AppCompatActivity {
     TextView inseamField;
     TextView commentsField;
 
+    /**
+     * runs specific things that we need at the start of the app
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,6 +86,12 @@ public class ExpandPerson extends AppCompatActivity {
         });
     }
 
+    /**
+     * runs specific things that will be needed
+     * each time this class is called.
+     * Fills all of our fields with information that was previously inputted
+     * if the field is empty then we fill it with N/A
+     */
     @Override
     protected void onStart() {
         super.onStart();
@@ -120,12 +135,19 @@ public class ExpandPerson extends AppCompatActivity {
 
     }
 
+    /**
+     * in this class we call edit person activity which allows the user to edit the current user
+     * that they are viewing
+     */
     protected void editPerson() {
         Intent intent = new Intent(this, EditPerson.class);
         intent.putExtra("position", position);
         startActivity(intent);
     }
 
+    /**
+     * loads the file for reading
+     */
     protected void loadFile() {
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -144,6 +166,10 @@ public class ExpandPerson extends AppCompatActivity {
         }
     }
 
+    /**
+     * saves our current peoples list into our SizeBook.sav
+     * this updates our data for later reading and writing
+     */
     private void saveInFile() {
         try {
             FileOutputStream fos = openFileOutput(FILENAME,

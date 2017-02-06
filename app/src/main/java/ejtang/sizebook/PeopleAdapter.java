@@ -16,18 +16,31 @@ import java.util.ArrayList;
 
 /**
  * Created by ejtang on 2017-02-04.
+ * Custom adapter created for displaying our people
  */
 
 public class PeopleAdapter extends ArrayAdapter<Person> {
     private ArrayList<Person> people;
     private Context context;
 
+    /**
+     * constructor for our peopleadapter
+     * @param people
+     * @param context
+     */
     public PeopleAdapter (ArrayList<Person> people, Context context) {
         super(context, R.layout.list_person, people);
         this.context = context;
         this.people = people;
     }
 
+    /**
+     * this will return a view for our adapter to use and place onto the screen
+     * @param postion
+     * @param convertView
+     * @param parent
+     * @return view to be displayed for the display adapter
+     */
     @Override
     public View getView(int postion, View convertView, ViewGroup parent) {
         LayoutInflater peopleInflator = LayoutInflater.from(getContext());

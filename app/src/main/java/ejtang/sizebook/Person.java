@@ -9,6 +9,8 @@ import java.util.Date;
 
 /**
  * Created by ejtang on 2017-01-28.
+ * This is the person class that will be used to store our values for the
+ * people. getters and setters are implemented in this as well
  */
 
 public class Person {
